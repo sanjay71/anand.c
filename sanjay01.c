@@ -2,14 +2,16 @@
 #include<conio.h>
 int main()
 {
-int  a,b,c;
+int  a,b;
 clrscr()
 printf("enter the number\n");
 scanf("%d",&a);
 printf("enter the number\n");
 scanf("%d",&b);
-c=a+b;
-printf("sum of two number is",c);
+  if (a==0)
+printf("given number is even");
+  else
+ printf("givrn number is odd");
 getch();
 return0;
 }
